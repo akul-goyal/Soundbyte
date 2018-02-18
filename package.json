@@ -1,0 +1,27 @@
+{
+  "name": "testService",
+  "version": "0.0.4",
+  "description": "",
+  "author": "akulgoyal <akulagoyal@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "houndify": "^2.1.0",
+    "lib": "^3.0.1",
+    "minimist": "^1.2.0",
+    "node-wav": "0.0.2",
+    "wav": "^1.0.1",
+    "waveform-node": "^0.3.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "akulgoyal/testService",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
